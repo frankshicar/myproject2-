@@ -8,6 +8,9 @@ public class scoringNew {
         jack.math = 88;
         Student hack = new Student("Hank",60,30);
         Student s = new Student();
+        GraduateStudent jane = new GraduateStudent("Jane", 70, 80, 60);
+        jane.name = "Jane";
+        jane.print();
         jack.print();
         hack.print();
     }
