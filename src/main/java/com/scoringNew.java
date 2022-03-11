@@ -7,6 +7,7 @@ public class scoringNew {
         jack.english = 70;
         jack.math = 88;
         Student hack = new Student("Hank",60,30);
+        Student s = new Student();
         jack.print();
         hack.print();
     }
