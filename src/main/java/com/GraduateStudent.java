@@ -12,7 +12,7 @@ public class GraduateStudent extends Student{
         super( name, english, math);
         this.thesis = thesie;
     }
-
+    @Override
     public void print() {
         System.out.println(name+"\t"+english+"\t"+
                 math + "\t" + getAverage() +
