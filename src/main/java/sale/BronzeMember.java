@@ -1,4 +1,4 @@
-package com;
+package sale;
 
 public class BronzeMember{
     int cost;
@@ -9,10 +9,11 @@ public class BronzeMember{
         this.cost = cost;
     }
     public float returnmoney(){
-        return (cost/1000)*discount*1000;
+        return (cost)*discount*1000;
     }
     public void print() {
-        float money = cost - returnmoney();
-        System.out.println(id + " \t" + money);
+//        float money = cost - returnmoney();
+//        System.out.println(id + " \t" + money);
+        System.out.println(returnmoney());
     }
 }

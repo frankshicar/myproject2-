@@ -1,4 +1,4 @@
-package com;
+package Student;
 
 public class scoringNG {
     public static void main(String[] args) {

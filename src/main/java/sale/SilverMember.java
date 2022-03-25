@@ -1,4 +1,4 @@
-package com;
+package sale;
 
 public class SilverMember extends BronzeMember{
     public SilverMember(String id,  int cost){
