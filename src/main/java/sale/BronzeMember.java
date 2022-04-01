@@ -8,12 +8,11 @@ public class BronzeMember{
         this.id = id;
         this.cost = cost;
     }
-    public float returnmoney(){
-        return (cost)*discount*1000;
+    public int returnmoney(){
+        return (int)((cost/1000)*discount*1000);
     }
     public void print() {
-//        float money = cost - returnmoney();
-//        System.out.println(id + " \t" + money);
-        System.out.println(returnmoney());
+        int money = cost - returnmoney();
+        System.out.println(id + "\t" + (money));
     }
 }

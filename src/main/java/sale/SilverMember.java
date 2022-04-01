@@ -11,6 +11,6 @@ public class SilverMember extends BronzeMember{
     @Override
     public void print() {
         int money = cost - getoffmoney();
-        System.out.println(id + " \t" + money);
+        System.out.println(id + "\t" + money);
     }
 }
