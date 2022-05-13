@@ -1,11 +1,11 @@
 package ticket;
 
 public class Station {
-    public static final Station TAIPEI_STATION =
+    public static Station TAIPEI_STATION =
             new Station(100, "Taipei");
-    public static final Station TAICHUNG_STATION =
+    public static Station TAICHUNG_STATION =
             new Station(200, "Taichung");
-    public static final Station KAOHSIUNG_STATION =
+    public static Station KAOHSIUNG_STATION =
             new Station(300, "Kaohsiung");
     int id;
     String name;

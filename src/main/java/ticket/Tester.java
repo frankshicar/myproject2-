@@ -9,8 +9,8 @@ public class Tester {
         //Constructor, constant value
 //        Scanner scanner = new Scanner(System.in);
 //        System.out.println("Your start station?(1: Taipei, 2: Taichung, 3: Kaohsiung)");
-//        Station start = null;
 //        int startChoice=Integer.parseInt(scanner.next());
+//        Station start = null;
 //        switch (startChoice){
 //            case 1:
 //                start = Station.TAIPEI_STATION;
@@ -35,7 +35,7 @@ public class Tester {
 //                destination= Station.KAOHSIUNG_STATION;
 //                break;
 //        }
-        List<Integer> list = new ArrayList<>();
+
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Your start station?(1: Taipei, 2: Taichung, 3: Kaohsiung)");
@@ -68,6 +68,9 @@ public class Tester {
         }
         Ticket ticket = new Ticket(start, destination);
         ticket.print();
+        System.out.println("Which kind of ticket? 1)Normal Ticket 2)Student ticket 3)Elder ticket");
+        int Ticket = Integer.parseInt(scanner.next());
+
     }
 }
 

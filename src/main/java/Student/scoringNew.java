@@ -1,5 +1,8 @@
 package Student;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class scoringNew {
     public static void main(String[] args) {
         Student jack = new Student("jack");
@@ -10,6 +13,10 @@ public class scoringNew {
         Student s = new Student();
         GraduateStudent jane = new GraduateStudent("Jane", 70, 80, 60);
         jane.name = "Jane";
+//        List<Student> student = new ArrayList<>();
+//        student.add(jack);
+//        student.add(hack);
+//        student.add(jane);
         jane.print();
         jack.print();
         hack.print();
