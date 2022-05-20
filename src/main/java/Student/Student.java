@@ -19,7 +19,7 @@ public class Student implements Printable{
 //                english = -1;
 //                math = -1;
         }
-       
+
         public void print(){
                 System.out.print(name +
                         "\t" + english + "\t" +
