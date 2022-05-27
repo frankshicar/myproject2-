@@ -1,3 +1,5 @@
+package ui;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -22,7 +24,7 @@ public class MyWin {
 //        button.addActionListener(listener);
 //        layput
         frame.setLayout(new FlowLayout());
-//        frame.add(new JButton("ok"));
+        frame.add(new JButton("Hi"));
 //        frame.add(new JButton("hi"));
         frame.add(button);
         frame.setVisible(true);
