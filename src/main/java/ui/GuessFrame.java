@@ -5,17 +5,21 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.Random;
-import java.util.Scanner;
 
 public class GuessFrame extends JFrame {
     public GuessFrame(){
         super();
         setSize(500,500);
-        setLocation(100,500);
+        setLocation(0,0);
         setDefaultCloseOperation(DISPOSE_ON_CLOSE);
         JButton button = new JButton("猜");
+//        button.setBounds(5,5,5,5);
         JLabel label = new JLabel("猜1到100之間的數字");
+//        label.setBounds(10,10,10,10);
         JTextField number = new JTextField(8);
+        JButton chick = new JButton("確定");
+//        chick.setBounds(30,30,100,20);
+        add(chick);
         button.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -34,11 +38,13 @@ public class GuessFrame extends JFrame {
         setLayout(new FlowLayout());
         add(number);
         add(button);
+//        add(chick);
         add(label);
         setVisible(true);
     }
 
     public static void main(String[] args) {
+
         GuessFrame guessFrame = new GuessFrame();
     }
 }
